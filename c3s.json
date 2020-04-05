@@ -1,0 +1,47 @@
+{
+	"name": "Sleep Trainer for Toddlers",
+
+	"contentRepositoryConnection": {
+		"type": "PRISMIC",
+		"repositoryId": "https://sleep-trainer.cdn.prismic.io/api"
+	},
+
+	"locationSettings": {
+		"locale": "nl_BE",
+		"timeZone": "Europe/Brussels"
+	},
+
+	"templates": [
+		{
+			"name": "main",
+			"contents": "templates/main.ftl"
+		}
+	],
+
+	"errorPage": {
+		"name": "Error",
+		"template": "main",
+		"inserts": {
+			"body": "pages/error.ftl"
+		}
+	},
+
+	"pages": [
+		{
+			"friendlyUrl": "home",
+			"name": "Home",
+			"template": "main",
+			"inserts": {
+				"body": "pages/home.ftl"
+			}
+		},
+		{
+			"friendlyUrl": "privacy",
+			"name": "Privacy",
+			"template": "main",
+			"inserts": {
+				"body": "pages/privacy.ftl"
+			}
+		}
+	]
+}
