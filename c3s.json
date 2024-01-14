@@ -7,7 +7,7 @@
 	},
 
 	"locationSettings": {
-		"locale": "nl_BE",
+		"locales": ["en_US","nl_BE"],
 		"timeZone": "Europe/Brussels"
 	},
 

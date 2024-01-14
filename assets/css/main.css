@@ -1,8 +1,5 @@
 body {
-	background: #222;
-	background-image: url("../img/stars-bg.jpg");
-	background-size: 25%;
-	background-repeat: repeat;
+	background: #000 url("../img/stars-bg.jpg");
 	font-family: Roboto;
 	color: white;
 	font-size: 0.9em;

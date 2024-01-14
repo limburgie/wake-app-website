@@ -1,9 +1,9 @@
 <div class="privacy">
-	<h3>Page not found</h3>
+	<h3>Oops!</h3>
 
-	<p>This page does not exist.</p>
+	<p>Something went wrong when trying to access this page</p>
 
 	<p>
-		<a href="/">Go back to the homepage</a>
+		<a href="${uri.ofIndex()}">Back to homepage</a>
 	</p>
 </div>

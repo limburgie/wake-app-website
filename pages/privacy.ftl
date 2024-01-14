@@ -6,6 +6,6 @@
 	${pp.getRichText("description").html}
 
 	<p>
-		<a href="/">${pp.getText("back_link_label")}</a>
+		<a href="${uri.ofIndex()}">${pp.getText("back_link_label")}</a>
 	</p>
 </div>
