@@ -1,6 +1,6 @@
 body {
 	background: #000 url("../img/stars-bg.jpg");
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	color: white;
 	font-size: 0.9em;
 }
@@ -32,7 +32,8 @@ p {
 }
 
 .privacy {
-	margin: 75px auto;
+    padding: 75px 0;
+	margin: 0 auto;
 	text-align: center;
 	max-width: 400px;
 }
@@ -76,6 +77,21 @@ footer {
 a {
 	text-decoration: none !important;
 	color: #888 !important;
+}
+
+textarea {
+    background: #ccc !important;
+    border: none;
+    color: #000 !important;
+}
+
+button {
+    font-size: 3em;
+    background-color: #ED6437 !important;
+    color: white !important;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin-top: 24px;
 }
 
 /*Small devices (landscape phones, 576px and up)*/

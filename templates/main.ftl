@@ -29,6 +29,7 @@
 
 <footer>
 	&copy ${.now?string('yyyy')} <a target="_blank" href="https://www.web-factor.be">Web Factor</a> -
+    <a target="_blank" href="mailto:peter@web-factor.be">peter@web-factor.be</a> - 
 	<a href="${uri.of("privacy")}">${pp.getText("title")}</a> -
 	<#if request.locale.language == "nl">
 	    <a href="/en">EN</a>
